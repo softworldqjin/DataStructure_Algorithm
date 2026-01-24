@@ -1,0 +1,20 @@
+package chap01;
+import java.util.Scanner;
+
+public class JudgeABC2x {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        while (true){
+            System.out.print("정수를 입력하세요: ");
+            int n = input.nextInt();
+            if (n == 1){
+                System.out.println("A");
+            } else if (n == 2){
+                System.out.println("B");
+            } else if (n == 3){
+                System.out.println("C");
+            } else
+                ;
+        }
+    }
+}
