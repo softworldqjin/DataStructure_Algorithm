@@ -8,7 +8,7 @@ public class SeqSearchMain {
         System.out.print("요솟수: ");
         int count = input.nextInt();
 
-        int[] x = new int[count];
+        int[] x = new int[count + 1];
 
         for (int i = 0; i < count; i++){
             System.out.print("x[" + i + "]: ");
