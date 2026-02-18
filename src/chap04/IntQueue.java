@@ -20,6 +20,7 @@ public class IntQueue {
         num = 0;
         front = 0;
         rear = 0;
+        capacity = maxLen;
 
         try {
             que = new int[capacity];
